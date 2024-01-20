@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Привет!");
+        int sum = 0;
+        int a = 2;
+        int b = 3;
 
+        sum = a * b;
+        System.out.println("Результат:" + sum);
     }
 }
