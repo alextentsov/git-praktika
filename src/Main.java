@@ -7,7 +7,7 @@ public class Main {
 
         sum = a * b;
 
-        System.out.println("Калькулятор");
+        git
         System.out.println("Результат перемножения чисел:" + sum);
 
     }
