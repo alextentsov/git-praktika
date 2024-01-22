@@ -1,14 +1,22 @@
 public class Main {
     public static void main(String[] args) {
 
-        int sum = 0;
-        int a = 2;
-        int b = 3;
+        double sum;
+        double mul;
+        double div;
+        double sub;
+        double a = 2;
+        double b = 3;
 
-        sum = a * b;
+        mul = a * b;
+        sum = a + b;
+        div = (a / b);
+        sub = a - b;
 
-        git
-        System.out.println("Результат перемножения чисел:" + sum);
-
+        System.out.println("Калькулятор");
+        System.out.println("Результат перемножения чисел:" + mul);
+        System.out.println("Результат сложения чисел:" + sum);
+        System.out.println("Результат деления чисел:" + div);
+        System.out.println("Результат вычитания чисел:" + sub);
     }
 }
