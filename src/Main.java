@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -5,13 +7,14 @@ public class Main {
         double mul;
         double div;
         double sub;
-        double a = 2;
-        double b = 0;
 
-        mul = a * b;
+        double a = new Scanner(System.in).nextInt();
+        double b = new Scanner(System.in).nextInt();
+
         sum = a + b;
-        div = a / b;
         sub = a - b;
+        mul = a * b;
+        div = a / b;
 
         System.out.println("Калькулятор\n");
         System.out.println("Результат сложения чисел:" + sum);
