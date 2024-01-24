@@ -13,6 +13,7 @@ public class Main {
         div = a / b;
         sub = a - b;
 
+        System.out.println("Калькулятор\n");
         System.out.println("Результат сложения чисел:" + sum);
         System.out.println("Результат вычитания чисел:" + sub);
         System.out.println("Результат перемножения чисел:" + mul);
