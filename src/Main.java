@@ -8,6 +8,8 @@ public class Main {
         double div;
         double sub;
 
+        System.out.println("Калькулятор\n");
+        
         System.out.println("Введите первое число: ");
         double a = new Scanner(System.in).nextInt();
 
@@ -19,7 +21,6 @@ public class Main {
         mul = a * b;
         div = a / b;
 
-        System.out.println("Калькулятор\n");
         System.out.println("Результат сложения чисел: " + sum);
         System.out.println("Результат вычитания чисел: " + sub);
         System.out.println("Результат перемножения чисел: " + mul);
